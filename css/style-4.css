@@ -1,0 +1,109 @@
+:root {
+    --brand: #01b5fb;
+    --sub: #6ac754;
+    --body: #516171;
+    --border: rgba(0,0,0,0.08);
+    --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+ /* Team Section Styles */
+
+
+.card {
+    border-radius: 10px; /* Rounded corners for cards */
+    background-color: #ffb8a2;
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.card-title {
+    font-size: 1.2rem; /* Increase title font size */
+    color: #333; /* Dark color for better contrast */
+}
+
+.card-text {
+    font-size: 1.2rem; /* Set font size for role */
+    margin-top: 5px; /* Space between title and role */
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 576px) {
+    .card-title {
+        font-size: 1.3rem; /* Smaller title font size on mobile */
+    }
+
+    .card-text {
+        font-size: 1rem; /* Smaller role font size on mobile */
+    }
+}
+
+@media (min-width: 768px) {
+    .card-title {
+        font-size: 1.5rem; /* Larger title font size on medium screens */
+    }
+}
+
+
+/*End*/
+/* Donation Section Styles */
+
+/* Donation Section Styles */
+.donation-section {
+    padding: 40px 20px; /* Padding around the section */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.donation-title {
+    font-size: 2rem; /* Adjust font size for the title */
+    color: #2c3e50; /* Darker color for the title */
+}
+
+.donation-description {
+    font-size: 1.25rem; /* Adjust font size for description */
+    color: #7f8c8d; /* Muted color for the description */
+}
+
+.donation-card {
+    background-color: #ffffff; /* White background for the card */
+    border-radius: 10px; /* Rounded corners for the card */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 20px; /* Padding inside the card */
+}
+
+.donation-card-title {
+    font-size: 1.5rem; /* Font size for the card title */
+    color: #2980b9; /* Primary color for the title */
+}
+
+.account-info {
+    margin-bottom: 20px; /* Space between account info sections */
+}
+
+.account-label {
+    font-weight: bold; /* Bold font for labels */
+    color: #34495e; /* Dark color for labels */
+}
+
+.account-value {
+    color: #7f8c8d; /* Muted color for values */
+}
+
+.donate-button {
+    display: inline-block; /* Make button inline */
+    padding: 12px 30px; /* Padding inside button */
+    background-color: #27ae60; /* Button color */
+    color: #ffffff; /* Text color */
+    border-radius: 25px; /* Rounded button */
+    text-decoration: none; /* No underline */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.donate-button:hover {
+    background-color: #219653; /* Darker shade on hover */
+}
+/*END*/
